@@ -4,7 +4,8 @@ A example app to demonstrate page flows using Angular v5 &amp; Bootstrap v4 fram
 ## Usage
 
  1. Checkout Code
- 2. Use npm install, build & serve to run samle app
+ 2. Use npm install, build & serve.
+ 3. Launch http://localhost:4200/home to launch the.
 
 ## Screenshots
 
