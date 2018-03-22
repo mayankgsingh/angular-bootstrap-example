@@ -1,0 +1,31 @@
+<div class="row">
+	<div class="col-md-12">
+		<div class="card border border-primary">
+			<div class="card-header bg-primary text-white">Signup</div>
+			<div class="card-body">
+				<form>
+				  <div class="form-group">
+					<label for="txtUsername">Username</label>
+					<input [(ngModel)]="txtUsername" name="txtUsername" type="email" class="form-control" id="txtUsername" aria-describedby="emailHelp" placeholder="EmailId">
+					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+				  </div>
+				  <div class="form-group">
+					<label for="txtPassword">Password</label>
+					<input [(ngModel)]="txtPassword" name="txtPassword" type="password" class="form-control" id="txtPassword" placeholder="Password">
+				  </div>
+				  <div class="form-group">
+					<label for="txtRePassword">Reenter Password</label>
+					<input [(ngModel)]="txtRePassword" name="txtRePassword" type="password" class="form-control" id="txtRePassword" placeholder="Password">
+				  </div>
+				  <div class="form-group row">
+					<div class="col-sm-10">
+						<button type="button" class="btn btn-primary" (click)="signUp()">Create Account</button>
+						<button type="button" class="btn btn-default" routerLink="/home">Cancel</button>
+					</div>
+				  </div>
+				</form>
+			</div>
+		</div>
+		
+	</div>
+</div><!-- row -->

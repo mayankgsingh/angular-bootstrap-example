@@ -1,0 +1,54 @@
+<div class="row">
+	<div class="col-md-6">
+		<h3>
+		  Welcome to {{title}}<br />
+		  <small class="text-muted">This is where the fun starts.</small>
+		</h3>
+		Give some description about the application / company. What this tool can do and how beneficial it can be. Also, add information about the audience. 
+		  Mention about clients, success stories, testimonials etc.
+		  List of upcoming features can be mentioned.
+	</div>
+	<div class="col-md-6">
+		<div class="card border border-primary">
+			<div class="card-header bg-primary text-white">Login</div>
+			<div class="card-body">
+				<form>
+				  <div class="form-group">
+					<label for="txtUsername">Username</label>
+					<input [(ngModel)]="txtUsername" name="txtUsername" type="email" class="form-control" id="txtUsername" aria-describedby="emailHelp" placeholder="EmailId">
+					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+				  </div>
+				  <div class="form-group">
+					<label for="txtPassword">Password</label>
+					<input [(ngModel)]="txtPassword" name="txtPassword" type="password" class="form-control" id="txtPassword" placeholder="Password">
+				  </div>
+				  <div class="form-group row">
+					<div class="col-sm-10">
+						<button type="button" class="btn btn-primary" (click)="login()">Sign in</button>
+						<a href="signup">Sign Up</a>
+					</div>
+				  </div>
+				</form>
+			</div>
+		</div>
+		
+	</div>
+</div><!-- row -->
+<br />
+<div class="row">
+	<div class="col-md-6">
+	</div>
+	<div class="col-md-6">
+		<div class="card">
+		  <!-- <div class="card-header">
+			Quote
+		  </div> -->
+		  <div class="card-body">
+			<blockquote class="blockquote mb-0 text-right">
+			  <p class="small">An idea is like a virus. Resilient. Highly contagious. And even the smallest seed of an idea can grow. It can grow to define or destroy you.</p>
+			  <footer class="blockquote-footer">Cobb in <cite title="Source Title">Inception</cite></footer>
+			</blockquote>
+		  </div>
+		</div>
+	</div>
+</div>
