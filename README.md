@@ -1,2 +1,26 @@
 # angular-bootstrap-example
 A example app to demonstrate page flows using Angular v5 &amp; Bootstrap v4 frameworks
+
+## Usage
+
+ 1. Checkout Code
+ 2. Use npm install, build & serve to run samle app
+
+## Screenshots
+
+|Landing Page|Search|Select to play|
+|--|--|--|
+|![Home](https://raw.githubusercontent.com/mayankgsingh/angular-bootstrap-example/screenshots/Home.png)|![Signup](https://raw.githubusercontent.com/mayankgsingh/angular-bootstrap-example/screenshots/SignUp.png)|![Dashboard.png](https://raw.githubusercontent.com/mayankgsingh/angular-bootstrap-example/screenshots/Dashboard.png)|
+
+
+## Flow
+diagram:
+
+```mermaid
+graph LR
+A((Home/Login)) -- New User --> B((Signup))
+A -- Correct Login --> C[Dashboard]
+A -- In Correct Login --> A
+B -- Cancel --> A
+B -- Success --> A
+```
