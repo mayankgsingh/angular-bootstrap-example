@@ -10,7 +10,7 @@ A example app to demonstrate page flows using Angular v5 &amp; Bootstrap v4 fram
 
 |Home Screen|Signup|Dashboard|
 |--|--|--|
-|![Home](https://raw.githubusercontent.com/mayankgsingh/angular-bootstrap-example/master/screenshots/Home.png)|![Signup](https://raw.githubusercontent.com/mayankgsingh/angular-bootstrap-example/screenshots/master/SignUp.png)|![Dashboard.png](https://raw.githubusercontent.com/mayankgsingh/angular-bootstrap-example/master/screenshots/Dashboard.png)|
+|![Home Screen](https://raw.githubusercontent.com/mayankgsingh/angular-bootstrap-example/master/screenshots/Home.png)|![Signup](https://raw.githubusercontent.com/mayankgsingh/angular-bootstrap-example/master/screenshots/SignUp.png)|![Dashboard.png](https://raw.githubusercontent.com/mayankgsingh/angular-bootstrap-example/master/screenshots/Dashboard.png)|
 
 
 ## Flow
